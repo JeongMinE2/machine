@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<title>machine</title>
+<style>
+#btn {
+  width: 100px;
+  height: 40px;
+}
+
+th {
+  border: 1px solid black;
+  padding: 30px;
+}
+</style>
+</head>
+<body onload="showPrice();">
+  <div id="price" style="text-align: left;"><!--현재 잔액 표시될곳--></div>
+  <div style="text-align: center;">
+  <table style="margin:auto;">
+    <tr>
+      <th id="first_num">7<!-- 첫번째 번호 --></th>
+      <th id="second_num">7<!-- 두번째 번호 --></th>
+      <th id="third_num">7<!-- 세번째 번호 --></th>
+    </tr>
+  </table>
+</div>
+<div style="text-align: center; margin-top: 200px;">
+<input id="btn" type="button" value="작동">
+</div>
+<script src="js/machine.js"></script> <!-- js import -->
+</body>
+</html>
